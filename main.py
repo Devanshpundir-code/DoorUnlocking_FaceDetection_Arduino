@@ -94,7 +94,7 @@ face_locations → The specific locations (bounding boxes) of detected faces
 
         if True in matches:
             label = "yojit"  
-            arduino.write(b'unlock\n')
+            arduino.write(b'1')
 
         # Draw a rectangle around the face
         top, right, bottom, left = j
